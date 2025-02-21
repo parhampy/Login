@@ -22,7 +22,7 @@ def send_email(receiver, code):
             server.starttls()  # Enable TLS
             server.login(sender, password)
             server.sendmail(sender, receiver, message)
-        print("کد برای شما ارسال شد!")
+        print("ﺪﺷ ﻝﺎﺳﺭﺍ ﺎﻤﺷ ﯼﺍﺮﺑ ﺪﮐ")
     except Exception as e:
         print(f"Error sending email: {e}")
 
